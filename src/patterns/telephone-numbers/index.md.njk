@@ -10,6 +10,24 @@ status: Experimental
 statusMessage: This pattern is currently experimental because <a class="govuk-link" href="#research-on-this-pattern">more research</a> is needed to validate it.
 ---
 
+```html
+<h1>Example h1</h1>
+<p>Example paragraph</h1>
+<a href="https://www.gov.uk">example link</a>
+```
+
+[test url](https://www.gov.uk)
+
+An example bullet list is:
+
+- test
+- bullet
+- list
+
+```css
+h1 { color: red; }
+```
+
 {% from "_example.njk" import example %}
 
 {{ example({group: "patterns", item: "telephone-numbers", example: "default", html: true, nunjucks: true, open: false}) }}
